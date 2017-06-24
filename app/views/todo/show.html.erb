@@ -1,16 +1,19 @@
 <h1>Camping Prep</h1>
-    <h3>To do #<%= params[:id] %></h3>
-    <h3 class="textbackground"><span><%= @todo_description %></span></h3>  
+<h3>To do #<%= params[:id] %></h3>
+<h3 class="textbackground"><span><%= @todo_description %></span></h3>  
     
-    <div class="card">
-        <input id="edit-todo" type="text" placeholder="Edit To Do">
-        <input id="submit-change" type="Submit" value="Change To Do">
-        
-        <br>
-        <br>
-        <input id="delete-todo" type="Submit" value="Delete To Do">
-        <br>
-        <br>
-        <a href="/todo/index">See Entire List</a>
-    </div>
+<div class="card">
+    <input id="edit-todo" type="text" placeholder="Edit To Do">
+    <input id="submit-change" type="Submit" value="Change To Do">
+
+    <br>
+    <br>
+    
+    <input id="delete-todo" type="Submit" value="Delete To Do">
+    
+    <br>
+    <br>
+    
+    <a href="/todo/index">See Entire List</a>
+</div>
       
