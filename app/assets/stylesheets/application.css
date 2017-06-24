@@ -32,7 +32,46 @@ ul {
     background-color: cornsilk;
 }
 
+.card{
+  background-color: #FFF;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+
+.button{
+  font-size: 20px;
+  color: #FFF;
+  outline: none;
+  border-style: none;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.button:active{
+  box-shadow: 1px 1px 1px #90A4AE;
+}
 
 .textbackground span:hover {
   background-color:cornsilk;
+}
+
+.completed-todo{
+  text-decoration: line-through;
+}
+
+span{
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+}
+
+#new-todo-block{
+  margin: 20px auto 0px auto;
+}
+
+#add-new-todo-button{
+  display: block;
+  background-color: #03A9F4;
+  margin-top: 10px;
 }
