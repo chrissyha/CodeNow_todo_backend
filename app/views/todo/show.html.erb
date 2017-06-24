@@ -1,11 +1,15 @@
 <h1>Camping Prep</h1>
-    <h3 class="textbackground"><span>Pick trails</span></h3>  
-      
-    <input type="text" placeholder="Edit To Do">
-    <input type="Submit" value="Change To Do">
-      
-    <br>
-    <br>
-      
-    <a href="index.html">See Entire List</a>
+    <h3 class="textbackground"><span><%= @todo_description %></span></h3>  
+    
+    <div class="card">
+        <input id="edit-todo" type="text" placeholder="Edit To Do">
+        <input id="submit-change" type="Submit" value="Change To Do">
+        
+        <br>
+        <br>
+        <input id="delete-todo" type="Submit" value="Delete To Do">
+        <br>
+        <br>
+        <a href="/todo/index">See Entire List</a>
+    </div>
       

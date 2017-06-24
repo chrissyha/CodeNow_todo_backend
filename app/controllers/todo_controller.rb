@@ -3,6 +3,6 @@ class TodoController < ApplicationController
   end
   
   def show
+    @todo_description = "New todo"
   end
-  
 end
