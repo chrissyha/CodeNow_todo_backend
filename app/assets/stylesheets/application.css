@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+    color: orange;
+    font-family: Rochester, cursive;
+    font-size: 30px;
+    letter-spacing: 2.5px
+}
+
+li {
+    color: #008CBA;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+ul {
+    background-color: cornsilk;
+}
+
+
+.textbackground span:hover {
+  background-color:cornsilk;
+}
